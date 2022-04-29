@@ -1,4 +1,4 @@
-    @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -157,7 +157,11 @@ section {
     font-family: 'Poppins', sans-serif,Arial,tahoma;
     /* font-family: campus; */
 }
-
+.logo img{
+   border-radius:50%;margin-top: 40px;
+   width: 180px;
+   height: 150px;
+}
 .header .navbar a:hover {
     /* color: #b97309; */
     /* box-shadow: 0 0 10px white; */
@@ -1283,9 +1287,15 @@ ul {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     .header {
-   
+   height: 10rem;
         justify-content: space-between;
     }
+    .logo img{
+        margin-bottom: 4.2rem;;
+        border-radius:50%;
+        width: 150px;
+        height: 120px;
+     }
 
     .header img {
         height: fit-content;
@@ -1493,6 +1503,7 @@ ul {
                 display: flex;
         grid-template-columns: 1fr 1fr;
         height: auto;
+        row-gap: 2rem;
     }
     .order-content{
         width: 50%;
